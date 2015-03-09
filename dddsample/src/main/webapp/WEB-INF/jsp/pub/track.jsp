@@ -38,14 +38,14 @@
     <p>Estimated time of arrival in ${cargo.destination}: ${cargo.eta}</p>
     <p>${cargo.nextExpectedActivity}</p>
     <c:if test="${cargo.misdirected}">
-      <p class="notify"><img src="${rc.contextPath}/images/error.png" alt="" />Cargo is misdirected</p>
+      <p class="notify"><img src="${rc.contextPath}/static/error.png" alt="" />Cargo is misdirected</p>
     </c:if>
     <c:if test="${not empty cargo.events}">
       <h3>Handling History</h3>
         <ul style="list-style-type: none;">
             <c:forEach items="${cargo.events}" var="leg">
             <li>
-                <p><img style="vertical-align: top;" src="${rc.contextPath}/images/${leg.expected ? "tick" : "cross"}.png" alt=""/>
+                <p><img style="vertical-align: top;" src="${rc.contextPath}/static/${leg.expected ? "tick" : "cross"}.png" alt=""/>
                 &nbsp;${leg.description}</p>
             </li>
             </c:forEach>

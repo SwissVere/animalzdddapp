@@ -13,7 +13,7 @@
 <body>
   <div id="outer">
     <div id="apptitle">
-      <img src="${rc.contextPath}/images/dddsample_logotype.png" alt="Domain Driven Delivery"/>
+      <img src="${rc.contextPath}/static/dddsample_logotype.png" alt="Domain Driven Delivery"/>
     </div>
     <div id="body">
       <decorator:body/>

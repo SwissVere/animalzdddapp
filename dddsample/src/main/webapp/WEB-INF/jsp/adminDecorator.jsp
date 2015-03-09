@@ -12,7 +12,7 @@
 </head>
 <body>
   <div id="outer">
-    <img id="logotype" src="<c:url value="/images/dddsample_logotype_small.png"/>" alt=""/>
+    <img id="logotype" src="<c:url value="/static/dddsample_logotype_small.png"/>" alt=""/>
     <h1>Cargo Booking and Routing</h1>
     <ul id="menu">
       <li>

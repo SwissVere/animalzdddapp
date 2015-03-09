@@ -9,7 +9,7 @@
     <title>DDDSample</title>
 </head>
 <body style="padding: 20px">
-<p><img src="images/web_logo.png"/></p>
+<p><img src="static/web_logo.png"/></p>
 <p>Welcome to the <strong>DDDSample</strong> application.</p>
 <p>There are two web interfaces available:</p>
 <ul>
